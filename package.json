@@ -1,0 +1,56 @@
+{
+  "name": "grunt-autoprefixer",
+  "description": "Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.",
+  "version": "0.6.5.1",
+  "bin": {
+    "autoprefixer": "./node_modules/autoprefixer/bin/autoprefixer"
+  },
+  "homepage": "https://github.com/quicksoftpro/grunt-autoprefixer",
+  "author": {
+    "name": "Avanish Ojha",
+    "email": "avanish.ojha@quicksoftpro.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:quicksoftpro/grunt-autoprefixer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quicksoftpro/grunt-autoprefixer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/quicksoftpro/grunt-autoprefixer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "autoprefixer": "1.0.20140117",
+    "diff": "1.0.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "load-grunt-tasks": "~0.3.0",
+    "time-grunt": "~0.2.7"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "prefix",
+    "autoprefixer",
+    "quicksoftpro",
+    "Avanish Ojha"
+  ]
+}
